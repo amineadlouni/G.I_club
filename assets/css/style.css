@@ -2858,10 +2858,6 @@ img {
 /*--------------------------------------------------------------
 #0.6	about-us-section
 --------------------------------------------------------------*/
-.about-us-section {
-  background: #f0fbff;
-  position: relative;
-}
 
 .about-us-section:before {
   content: "";
@@ -3215,10 +3211,11 @@ img {
 #0.9	testimonials-section
 --------------------------------------------------------------*/
 .testimonials-section {
-  background-color: #f0fbff;
+  background: #f0fbff;
   position: relative;
-  padding-top: 110px;
+
 }
+
 
 @media (max-width: 991px) {
   .testimonials-section {
@@ -4302,6 +4299,8 @@ img {
 /*--------------------------------------------------------------
 #2.3	featured-project-section-s2
 --------------------------------------------------------------*/
+
+
 .featured-project-section-s2 {
   padding-bottom: 0;
 }
